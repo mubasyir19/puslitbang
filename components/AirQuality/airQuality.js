@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import Link from 'next/link';
 
 const poppins = Poppins({
   weight: ['300', '400', '500', '600', '700'],
@@ -16,8 +17,11 @@ const poppins = Poppins({
 export default function AirQuality() {
   return (
     <section className='mt-32 px-20' style={poppins.style}>
-      <div className='px-10'>
+      <div className='px-10 flex justify-between'>
         <h2 className='font-bold text-black text-4xl'>Kualitas Udara</h2>
+        <Link href='#' className='my-auto text-blue-400'>
+          Lihat Semua
+        </Link>
       </div>
       <div className='list-card mt-9 flex gap-x-11 justify-center'>
         <Swiper
