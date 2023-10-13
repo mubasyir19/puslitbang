@@ -1,4 +1,4 @@
-import { Footer, Navbar, Warning } from '@/components';
+import { Footer, Footer2, Navbar, Warning } from '@/components';
 import React from 'react';
 
 export default function Klimatologi() {
@@ -6,7 +6,7 @@ export default function Klimatologi() {
     <main className='relative'>
       <Navbar />
       <Warning />
-      <Footer />
+      <Footer2 />
     </main>
   );
 }

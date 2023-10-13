@@ -1,6 +1,6 @@
 'use client';
 
-import { Footer, Header, Navbar, Warning } from '@/components';
+import { Footer, Footer2, Header, Navbar, Warning } from '@/components';
 
 export default function Meteorologi() {
   return (
@@ -8,7 +8,7 @@ export default function Meteorologi() {
       <Navbar />
       <Header />
       <Warning />
-      <Footer />
+      <Footer2 />
     </main>
   );
 }
