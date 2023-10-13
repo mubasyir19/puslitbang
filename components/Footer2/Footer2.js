@@ -15,27 +15,27 @@ export default function Footer2() {
         </div>
         <div className='mt-10 lg:mt-0 flex flex-col lg:flex-row gap-y-8 gap-x-16'>
           <div>
-            <h3 className='text-lg underline leading-4 font-medium'>Meteorologi</h3>
-            <div className='mt-8 flex flex-col gap-y-6 text-base'>
+            <h3 className='text-base underline leading-4 font-medium'>Meteorologi</h3>
+            <div className='mt-8 flex flex-col gap-y-6 text-sm'>
               <Link href='#'>InaNWP</Link>
             </div>
           </div>
           <div>
-            <h3 className='text-lg underline leading-4 font-medium'>Klimatologi</h3>
-            <div className='mt-8 flex flex-col gap-y-6 text-base'>
+            <h3 className='text-base underline leading-4 font-medium'>Klimatologi</h3>
+            <div className='mt-8 flex flex-col gap-y-6 text-sm'>
               <Link href='#'>InaRWC</Link>
               <Link href='#'>InaSHO</Link>
               <Link href='#'>InaAQM</Link>
             </div>
           </div>
           <div>
-            <h3 className='text-lg underline leading-4 font-medium'>Geofisika</h3>
-            <div className='mt-8 flex flex-col gap-y-6 text-base'></div>
+            <h3 className='text-base underline leading-4 font-medium'>Geofisika</h3>
+            <div className='mt-8 flex flex-col gap-y-6 text-sm'></div>
           </div>
         </div>
       </div>
       <hr className='mt-20 w-full border-white' />
-      <div className='mt-11 text-base text-center'>
+      <div className='mt-11 text-sm text-center'>
         <p>© 2023 - Pusat Penelitian dan Pengembangan BMKG</p>
       </div>
     </footer>
