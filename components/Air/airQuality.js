@@ -14,8 +14,6 @@ const poppins = Poppins({
 });
 
 export default function AirQuality() {
-  const slidePerView = window.innerWidth > 768 ? 5 : 1;
-
   return (
     <section className='mt-32 px-20' style={poppins.style}>
       <div className='px-10'>
@@ -23,7 +21,7 @@ export default function AirQuality() {
       </div>
       <div className='list-card mt-9 flex gap-x-11 justify-center'>
         <Swiper
-          slidesPerView={slidePerView}
+          slidesPerView={5}
           spaceBetween={30}
           autoplay={{
             delay: 2500,

@@ -9,12 +9,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 export default function Weather() {
-  const slidePerView = window.innerWidth > 768 ? 5 : 1;
-
   return (
     <div className='px-20 lg:px-40 lg:mt-[-150px] '>
       <Swiper
-        slidesPerView={slidePerView}
+        slidesPerView={5}
         spaceBetween={30}
         autoplay={{
           delay: 2500,
