@@ -1,4 +1,4 @@
-import { AirQuality, Footer, Hero, Navbar, News, Scope, Warning, Weather } from '@/components';
+import { AirQuality, Footer, Footer2, Hero, Navbar, News, Scope, Warning, Weather } from '@/components';
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       <AirQuality />
       <News />
       <Warning />
-      <Footer />
+      <Footer2 />
     </main>
   );
 }
